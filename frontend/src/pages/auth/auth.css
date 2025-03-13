@@ -1,0 +1,53 @@
+.auth-header {
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.group-form {
+    width: 19rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4rem 0;
+}
+
+.group-form input {
+    width: 10.5rem;
+}
+
+.group-form input {
+    outline: none;
+    padding: 0 0.1rem;
+}
+
+.group-form input[type="number"] {
+    appearance: textfield;
+}
+
+.auth-header .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-header .links .link {
+    transform: 0.15s;
+}
+
+.auth-header .links .link:hover {
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.form form {
+    margin-bottom: 2rem;
+}

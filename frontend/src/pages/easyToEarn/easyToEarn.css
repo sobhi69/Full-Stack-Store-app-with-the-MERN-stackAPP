@@ -1,0 +1,57 @@
+.active {
+    border-bottom: 2px solid;
+}
+
+.easy-header {
+    background-color: #f6f8fa;
+    border-bottom: 2px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.easy-header .box-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.easy-header .box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.easy-header .username-box h4 {
+    margin-left: 5px;
+}
+
+@media (max-width:500px) {
+    .easy-header .username-box {
+        display: none;
+    }
+}
+
+.easy-header .box:last-of-type {
+    margin-left: 1rem;
+}
+
+.easy-header .box .tooltip {
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    width: 3rem;
+    pointer-events: none;
+    display: none;
+}
+
+.easy-header .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(177, 46, 46);
+}
+
+.easy-header .icon:hover + .tooltip {
+    display: block;
+} 

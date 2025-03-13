@@ -1,0 +1,29 @@
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home-page .heading {
+    margin: 1rem 0 2rem;
+}
+
+.home-page .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home-page .links .link:first-of-type {
+    margin-bottom: 0.5rem;
+}
+
+.home-page .links .link {
+    transition: 0.15;
+}
+
+.home-page .links .link:hover {
+    text-decoration: underline;
+}

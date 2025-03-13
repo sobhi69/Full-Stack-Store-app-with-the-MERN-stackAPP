@@ -1,0 +1,55 @@
+.items-page table {
+    margin: 1rem 0;
+}
+
+.items-page table thead tr th {
+    width: 4rem;
+}
+
+.items-page table tbody tr {
+    text-align: center;
+}
+
+.items-page table tbody tr td {
+    padding: 0.2rem 0.5rem;
+    width: 4rem;
+}
+
+.items-page table tbody tr td.title {
+    width: 5rem;
+}
+
+.items-page table tbody tr .actions {
+    justify-content: space-between;
+}
+
+.items-page table tbody tr .actions>* {
+    cursor: pointer;
+}
+
+.items-page {
+    flex-direction: column;
+}
+
+.items-page .search-box {
+    margin: 1rem 0;
+}
+
+.items-page .popup-mess {
+    background-color: rgba(102, 94, 247, 0.847);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+.items-page .popup-mess.active {
+    display: block;
+    animation: popupActive 2s forwards;
+}
+
+@keyframes popupActive {
+    to {
+        opacity: 1;
+    }
+}
